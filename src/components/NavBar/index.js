@@ -8,8 +8,7 @@ class NavBar extends Component {
   }
   render() {
     return (
-      <divl>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
           <a class="navbar-brand" href="#">
             <img className="img-fluid" src={Logo} />
           </a>
@@ -48,44 +47,24 @@ class NavBar extends Component {
               </li>
             </ul>
 
-            <ul class="navbar-nav ml-md-auto">
+            <ul class="navbar-nav ml-md-auto text-center">
               <li class="nav-item active">
+                <a class="nav-link" href="#">
+                Availible, days, nights, and weekends!
+                </a>
+                <a class="nav-link" href="tel:2152575685">
+                215-257-5685
+                </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link navbar-btn btn btn-lg m-4" href="#">
-                  Link <span class="sr-only">(current)</span>
+                ?
                 </a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link navbar-btn btn btn-lg m-4 dropdown-toggle"
-                  href="http://example.com"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                >
-                  Dropdown link
-                </a>
-                <div
-                  class="dropdown-menu dropdown-menu-right"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>{" "}
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>{" "}
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                  <div class="dropdown-divider" />{" "}
-                  <a class="dropdown-item" href="#">
-                    Separated link
-                  </a>
-                </div>
-              </li>
+              
             </ul>
           </div>
         </nav>
-      </divl>
     );
   }
 }

@@ -1,19 +1,23 @@
-import React from 'react';
+import React from "react";
 
 export default () => {
-    return (
-        <div class="row">
-		<div class="col-md-12">
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
-		</div>
-	</div>
-    )
-}
+  return (
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Since 1991,</h2>
+        <p className='text-justify'> 
+          the experienced attorneys of Mandracchia Law LLC have
+          represented clients in a wide variety of legal matters . We take pride
+          in providing high-quality, comprehensive services to those seeking
+          criminal defense or personal injury lawyers in Berks and Montgomery
+          County. Our firm also provides reliable services in banking law and
+          much more. Lawyers with more than 100 years of combined legal
+          experience With clients that include individuals, families, small
+          business ventures and even large commercial and banking businesses,
+          our experienced attorneys are ready to serve your legal needs in any
+          of the following areas:
+        </p>
+      </div>
+    </div>
+  );
+};

@@ -34,8 +34,8 @@ class Carousel extends Component {
                 magna mollis euismod. Donec sed odio dui.
               </p>
               <p>
-                <a className="btn" href="#">
-                  View details »
+                <a className="btn btn-lg btn-danger px-4" href="#">
+                  Request Your Consultation
                 </a>
               </p>
             </div>

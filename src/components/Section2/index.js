@@ -4,30 +4,30 @@ export default () => {
     return (
         <div class="row">
 		<div class="col-md-12">
-			<ul>
+			<ul className="list-unstyled">
 				<li class="list-item">
-					Lorem ipsum dolor sit amet
+					Banking Law
 				</li>
 				<li class="list-item">
-					Consectetur adipiscing elit
+					Criminal Defense
 				</li>
 				<li class="list-item">
-					Integer molestie lorem at massa
+					White Collar
 				</li>
 				<li class="list-item">
-					Facilisis in pretium nisl aliquet
+					Drug Charges
 				</li>
 				<li class="list-item">
-					Nulla volutpat aliquam velit
+				DUI/DWIPersonal injury
 				</li>
 				<li class="list-item">
-					Faucibus porta lacus fringilla vel
+				Auto accidents
 				</li>
 				<li class="list-item">
-					Aenean sit amet erat nunc
+				Wrongful death
 				</li>
 				<li class="list-item">
-					Eget porttitor lorem
+					and many more...
 				</li>
 			</ul>
 		</div>
