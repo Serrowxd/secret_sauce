@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { 
   NavBar, 
-  Jumbotron, 
   Carousel, 
   Section1, 
   Section2, 
@@ -19,9 +18,6 @@ class App extends Component {
       <div className="container-fluid no-gutters px-0">
         <section>
           <NavBar />
-        </section>
-        <section>
-          <Jumbotron />
         </section>
         <section>
           <Carousel />
