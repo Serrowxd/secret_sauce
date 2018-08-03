@@ -5,6 +5,7 @@ import {
   Section1, 
   Section2, 
   Section3,
+  Section35,
   Section4,
   Section5,
   Section6,
@@ -13,6 +14,9 @@ import {
   Section9} from "./components";
 
 class App extends Component {
+  componentWillMount() {
+    document.body.style.backgroundColor = '#283136';
+  }
   render() {
     return (
       <div className="container-fluid no-gutters px-0">
@@ -30,6 +34,9 @@ class App extends Component {
         </section>
         <section className="p-3">
           <Section3 />
+        </section>
+        <section className="p-3">
+          <Section35 />
         </section>
         <section className="p-3">
           <Section4 />

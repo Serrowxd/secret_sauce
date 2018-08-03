@@ -2,8 +2,8 @@ import React from "react";
 
 export default () => {
   return (
-    <div class="row">
-      <div class="col-md-12">
+    <div class="row bg">
+      <div class="col-md-12 bg-dark no-gutters">
         <h2>Since 1991,</h2>
         <p className="text-justify">
           the experienced attorneys of Mandracchia Law LLC have represented

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => {
     return (
-        <div class="row">
+        <div class="row bg-dark">
 		<div class="col-md-12">
 			<ul className="list-unstyled">
 				<li class="list-item">
