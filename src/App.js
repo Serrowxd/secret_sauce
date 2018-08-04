@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { 
   NavBar, 
-  Carousel, 
+  Header, 
   Section1, 
   Section2, 
   Section3,
@@ -24,7 +24,7 @@ class App extends Component {
           <NavBar />
         </section>
         <section>
-          <Carousel />
+          <Header />
         </section>
         <section  className="p-3">
           <Section1 />

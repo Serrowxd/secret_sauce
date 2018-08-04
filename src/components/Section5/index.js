@@ -4,19 +4,19 @@ export default () => {
     return (
         <div class="row">
 		<div class="col-md-6">
-			<div class="carousel slide" id="carousel-812097">
-				<ol class="carousel-indicators">
-					<li data-slide-to="0" data-target="#carousel-812097" class="active">
+			<div class="Header slide" id="Header-812097">
+				<ol class="Header-indicators">
+					<li data-slide-to="0" data-target="#Header-812097" class="active">
 					</li>
-					<li data-slide-to="1" data-target="#carousel-812097">
+					<li data-slide-to="1" data-target="#Header-812097">
 					</li>
-					<li data-slide-to="2" data-target="#carousel-812097">
+					<li data-slide-to="2" data-target="#Header-812097">
 					</li>
 				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block w-100" alt="Carousel Bootstrap First" src="https://www.layoutit.com/img/sports-q-c-1600-500-1.jpg" />
-						<div class="carousel-caption">
+				<div class="Header-inner">
+					<div class="Header-item active">
+						<img class="d-block w-100" alt="Header Bootstrap First" src="https://www.layoutit.com/img/sports-q-c-1600-500-1.jpg" />
+						<div class="Header-caption">
 							<h4>
 								First Thumbnail label
 							</h4>
@@ -25,9 +25,9 @@ export default () => {
 							</p>
 						</div>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="https://www.layoutit.com/img/sports-q-c-1600-500-2.jpg" />
-						<div class="carousel-caption">
+					<div class="Header-item">
+						<img class="d-block w-100" alt="Header Bootstrap Second" src="https://www.layoutit.com/img/sports-q-c-1600-500-2.jpg" />
+						<div class="Header-caption">
 							<h4>
 								Second Thumbnail label
 							</h4>
@@ -36,9 +36,9 @@ export default () => {
 							</p>
 						</div>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="https://www.layoutit.com/img/sports-q-c-1600-500-3.jpg" />
-						<div class="carousel-caption">
+					<div class="Header-item">
+						<img class="d-block w-100" alt="Header Bootstrap Third" src="https://www.layoutit.com/img/sports-q-c-1600-500-3.jpg" />
+						<div class="Header-caption">
 							<h4>
 								Third Thumbnail label
 							</h4>
@@ -47,7 +47,7 @@ export default () => {
 							</p>
 						</div>
 					</div>
-				</div> <a class="carousel-control-prev" href="#carousel-812097" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-812097" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+				</div> <a class="Header-control-prev" href="#Header-812097" data-slide="prev"><span class="Header-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="Header-control-next" href="#Header-812097" data-slide="next"><span class="Header-control-next-icon"></span> <span class="sr-only">Next</span></a>
 			</div>
 		</div>
 		<div class="col-md-6">
