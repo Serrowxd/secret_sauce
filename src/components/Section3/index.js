@@ -1,11 +1,11 @@
 import React from 'react';
-import carousel from './carousel';
+import Carousel from './carousel';
 
 export default () => {
     return (
         <div class="row">
 		<div class="col-md-6">
-		<carousel />
+		<Carousel />
 		</div>
 		<div class="col-md-6">
 			<h2>

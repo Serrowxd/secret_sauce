@@ -3,7 +3,7 @@ import { Parallax, Background } from "react-parallax";
 import Jumbo from "../../assets/images/jumbo.jpg";
 import chrisCharles from "../../assets/images/MainPageChrisCharles.png";
 
-class Header extends Component {
+class Carousel extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -53,4 +53,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Carousel;
